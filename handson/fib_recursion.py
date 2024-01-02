@@ -8,7 +8,7 @@ def fib(n):
     f = s
     s = t
     if n==0 :
-            break
+            return
     else:
             fib(n-1)
 
